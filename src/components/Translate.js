@@ -76,6 +76,7 @@ const Translate = () => {
             <hr />
             <h3 className='ui header'>Output</h3>
             <Convert language={language} text={text}/>
+            <h3>If the domain name of web site is not localhost:3000, the google translate api will not work regarding the issues of google</h3>
         </div>
     );
 }
